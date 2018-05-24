@@ -1,0 +1,272 @@
+/*
+  Theme Name: Deli website
+  Author: Michael James
+  Version: 1.0
+*/
+
+  body {
+    height: 100%;
+  }
+
+
+  /* Navbar styles */
+
+  nav {
+    background-color: #af7250;
+    text-decoration: none;
+
+  }
+
+  .nav-link {
+    color: white;
+  }
+
+  .navbar-brand {
+    color: white;
+    font-family: 'Pacifico', cursive;
+  }
+
+  #dropdown-list {
+    background-color: #af7250;
+
+  }
+
+  .dropdown-item {
+    color: white;
+  }
+
+  .dropdown-item:hover {
+    color: #af7250;
+  }
+
+  .dropdown-item:active {
+    background-color: #af7250;
+    color: white;
+  }
+
+
+  /* Carousel styles */
+  .carousel {
+    margin-top: 5px;
+  }
+
+  /* Heading styles */
+
+  .sub-heading {
+    font-family: 'Satisfy', cursive;
+    margin-top: 20px;
+  }
+
+  .main-heading {
+    font-family: 'Satisfy', cursive;
+    font-size: 60px;
+    margin-top: 20px;
+  }
+
+  /* Section header styles */
+
+  #menu {
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+
+  #locations {
+    margin-top: 50px;
+    padding-top: 20px;
+  }
+
+  #contact {
+    margin-top: 50px;
+    padding-top: 20px;
+  }
+
+    /* Title styles */
+
+  .welcome {
+    text-align: center;
+    font-size: 80px;
+    margin: 40px;
+    font-family: 'Pacifico', cursive;
+  }
+
+  .tagline {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+
+    /* Menu styles */
+
+  .pics {
+    margin-top: 20px;
+  }
+
+  .menu-link {
+    color: black;
+  }
+
+  .menu-link:hover {
+    color: black;
+  }
+
+  .category-pic {
+    margin-bottom: 50px;
+
+  }
+
+
+
+    /* Card styles */
+
+  .col-sm-4 {
+    margin-bottom: 30px;
+  }
+
+  .btn-brown {
+    background-color: #af7250;
+    color: white;
+  }
+
+  .btn-brown:hover {
+    color: #af7250;
+    background-color: white;
+    border: 2px solid #af7250;
+  }
+
+  /* Social media icon styles */
+
+
+.fa {
+    margin: 5px 2px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
+
+
+/* Footer styles */
+.fixed-bottom {
+
+  margin-top: 20px;
+  bottom: 0;
+
+}
+
+
+.portfolio-link {
+  color: white;
+}
+
+.navbar-bottom {
+  margin-top: 20px;
+}
+
+.copyright {
+  color: white;
+  margin-bottom: 0;
+}
+
+/* Menu page styles */
+
+
+.card-header {
+  background-color: #efdabd;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  height: 90px;
+}
+
+.card-header h3 {
+  color: black;
+  cursor: pointer;
+}
+
+.card-header h3:hover {
+  text-decoration: underline;
+}
+
+.menu-pic {
+  display: inline-block;
+  height: 200px;
+  width: 300px;
+}
+
+.col-sm-4, .col-sm-8 {
+  padding-right: 0;
+}
+
+.media {
+  margin-bottom: 20px;
+}
+
+#accordion {
+  margin-bottom: 80px;
+}
+
+/* Mobile style changes */
+
+@media (max-width: 576px) {
+  .carousel {
+    margin-top: 10px;
+  }
+
+  .welcome {
+    font-size: 38px;
+  }
+
+  .main-heading {
+    font-size: 38px;
+  }
+
+  .sub-heading {
+    font-size: 20px;
+
+  }
+
+
+  .col-sm-4 {
+    margin-bottom: 10px;
+  }
+
+  .menu-pic {
+    margin-bottom: 10px;
+  }
+
+  #accordion {
+    margin-bottom: 100px;
+  }
+}
